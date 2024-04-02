@@ -1,0 +1,483 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "cross_origin",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "webScraper",
+        "description": "webScraper",
+        "isExtraImport": true,
+        "detail": "webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "src.flask.bin.activate_this",
+        "description": "src.flask.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "src.flask.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "ServerConfig",
+        "kind": 6,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "class ServerConfig(db.Model):\n    __tablename__ = 'server-config'\n    id = db.Column(db.Integer, primary_key=True)\n    config_name = db.Column(db.String(225))\n    config_value = db.Column(db.String(225))\n    config_type = db.Column(db.String(225))\n    flag = db.Column(db.Integer)\n    def __init__(self, server, database):\n        self.server = server\n        self.database = database",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "getServerConfig",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def getServerConfig():\n    serverConfigs = ServerConfig.query.all()\n    output = []\n    for serverconfig in serverConfigs:\n        serverConfigData = {}\n        serverConfigData['id'] = serverconfig.id\n        serverConfigData['config_name'] = serverconfig.config_name\n        serverConfigData['config_value'] = serverconfig.config_value\n        serverConfigData['config_type'] = serverconfig.config_type\n        serverConfigData['flag'] = serverconfig.flag",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "webScrapper",
+        "kind": 2,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "def webScrapper():\n    links = main()\n    output = []\n    for url in links:\n        urlData = {}\n        urlData['url'] = url\n        output.append(urlData)\n    return jsonify({\n        'message': 'Web Scraper Initialized!',\n        'links': output",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n#Configure the PostgreSQL database\napp.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://debarunlahiri:password@localhost/postgres'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ServerConfig(db.Model):\n    __tablename__ = 'server-config'\n    id = db.Column(db.Integer, primary_key=True)\n    config_name = db.Column(db.String(225))",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://debarunlahiri:password@localhost/postgres'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ServerConfig(db.Model):\n    __tablename__ = 'server-config'\n    id = db.Column(db.Integer, primary_key=True)\n    config_name = db.Column(db.String(225))\n    config_value = db.Column(db.String(225))\n    config_type = db.Column(db.String(225))\n    flag = db.Column(db.Integer)",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ServerConfig(db.Model):\n    __tablename__ = 'server-config'\n    id = db.Column(db.Integer, primary_key=True)\n    config_name = db.Column(db.String(225))\n    config_value = db.Column(db.String(225))\n    config_type = db.Column(db.String(225))\n    flag = db.Column(db.Integer)\n    def __init__(self, server, database):",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "src.main",
+        "description": "src.main",
+        "peekOfCode": "db = SQLAlchemy(app)\nclass ServerConfig(db.Model):\n    __tablename__ = 'server-config'\n    id = db.Column(db.Integer, primary_key=True)\n    config_name = db.Column(db.String(225))\n    config_value = db.Column(db.String(225))\n    config_type = db.Column(db.String(225))\n    flag = db.Column(db.Integer)\n    def __init__(self, server, database):\n        self.server = server",
+        "detail": "src.main",
+        "documentation": {}
+    },
+    {
+        "label": "ScrpMainSite",
+        "kind": 6,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "class ScrpMainSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    site_url = db.Column(db.Text)\n    site_name = db.Column(db.Text)\n    flag = db.Column(db.Integer)\n    def __init__(self, site_url, site_name, flag):\n        self.site_url = site_url\n        self.site_name = site_name\n        self.flag = flag\nclass ScrpSubSite(db.Model):",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "ScrpSubSite",
+        "kind": 6,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "class ScrpSubSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    main_site_id = db.Column(db.Integer)\n    site_url = db.Column(db.Text)\n    is_url_broken = db.Column(db.Integer)\n    flag = db.Column(db.Integer)\n    def __init__(self, main_site_id, site_url, is_url_broken, flag):\n        self.main_site_id = main_site_id\n        self.site_url = site_url\n        self.is_url_broken = is_url_broken",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "remove_duplicates",
+        "kind": 2,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "def remove_duplicates(l):\n    \"\"\"Remove duplicates and unURL string\"\"\"\n    links = []\n    for item in l:\n        match = re.search(\"(?P<url>https?://[^\\\\s]+)\", item)\n        if match is not None:\n            links.append(match.group(\"url\"))\n    return links\ndef initWebScraper(soup):\n    \"\"\"Initialize web scraper\"\"\"",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "initWebScraper",
+        "kind": 2,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "def initWebScraper(soup):\n    \"\"\"Initialize web scraper\"\"\"\n    data = []\n    links = []\n    for link in soup.find_all('a', href=True):\n        data.append(str(link.get('href')))\n    flag = True\n    links.extend(remove_duplicates(data))\n    while flag:\n        try:",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "checkIdPresence",
+        "kind": 2,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "def checkIdPresence(id):\n    \"\"\"Check if the ID is present in the database\"\"\"\n    scrptMainSite = ScrpSubSite.query.filter_by(main_site_id=id).first()\n    if scrptMainSite is None:\n        return False\n    return True\ndef main():\n    scrptMainSites = ScrpMainSite.query.all()\n    for scrptMainSite in scrptMainSites:\n        print(scrptMainSite.id)",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "def main():\n    scrptMainSites = ScrpMainSite.query.all()\n    for scrptMainSite in scrptMainSites:\n        print(scrptMainSite.id)\n        if checkIdPresence(scrptMainSite.id) == False:\n            source_code = requests.get(scrptMainSite.site_url)\n            soup = BeautifulSoup(source_code.content, 'lxml')\n            links = initWebScraper(soup)\n            for link in links:\n                try:",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "app = Flask(__name__)\napp.app_context().push()\n#Configure the PostgreSQL database\napp.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://debarunlahiri:password@localhost/postgres'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ScrpMainSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    site_url = db.Column(db.Text)\n    site_name = db.Column(db.Text)",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://debarunlahiri:password@localhost/postgres'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ScrpMainSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    site_url = db.Column(db.Text)\n    site_name = db.Column(db.Text)\n    flag = db.Column(db.Integer)\n    def __init__(self, site_url, site_name, flag):\n        self.site_url = site_url",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ndb = SQLAlchemy(app)\nclass ScrpMainSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    site_url = db.Column(db.Text)\n    site_name = db.Column(db.Text)\n    flag = db.Column(db.Integer)\n    def __init__(self, site_url, site_name, flag):\n        self.site_url = site_url\n        self.site_name = site_name",
+        "detail": "src.webScraper",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "src.webScraper",
+        "description": "src.webScraper",
+        "peekOfCode": "db = SQLAlchemy(app)\nclass ScrpMainSite(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    site_url = db.Column(db.Text)\n    site_name = db.Column(db.Text)\n    flag = db.Column(db.Integer)\n    def __init__(self, site_url, site_name, flag):\n        self.site_url = site_url\n        self.site_name = site_name\n        self.flag = flag",
+        "detail": "src.webScraper",
+        "documentation": {}
+    }
+]
